@@ -10,8 +10,7 @@ from stable_baselines3.common.env_checker import check_env as ce
 import time
 import os
 
-import light_out_env_positive_board_compleation
-from light_out_env_positive_board_compleation import LightsOutEnv
+from light_out_env import LightsOutEnv
 
 env = LightsOutEnv()
 
